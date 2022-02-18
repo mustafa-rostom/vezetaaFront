@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+
+span{
+    display: inline-block;
+}
+#routers li{
+    display:inline-block;
+}
+
+#routers li a{
+    text-decoration: none;
+}
+
+.form-input {
+    display:block;
+    margin-left: 5px;
+    width: 95%;
+}
+
+.form-label {
+    margin-left: 5px;
+}
+
+.box-shadowing{
+    border-radius: 5px;
+    box-shadow: 0 0 10px 1px rgb(69, 69, 255);
+}
+
+.form-control{
+    margin-top: 10px;
+}
